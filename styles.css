@@ -1,5 +1,53 @@
 body {
-  background-image: linear-gradient(cornflowerblue, tomato);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: linear-gradient(to right, lightblue, antiquewhite);
+  font-family: aktive;
+  margin-left: 5mm;
+}
+
+@font-face {
+  font-family: aktive;
+  src: url('aktive.ttf');
+}
+
+#mainTitle {
+  font-family: aktive;
+  font-style: normal;
+  font-size: 2cm;
+  margin: 10mm;
+}
+
+h1 {
+  font-family: aktive;
+}
+
+button {
+  border-radius: 3mm;
+  border-style: groove;
+  background-image: linear-gradient(to top right, lightgreen, pink);
+  border-top: 0;
+  border-left: 0mm;
+  font-family: aktive;
+  font-weight: bold;
+  font-size: 10mm;
+}
+
+button:hover {
+  animation: Button_Anim, Button_Anim2;
+  animation-duration: 100000s;
+  animation-iteration-count: initial;
+  cursor: pointer;
+}
+
+@keyframes Button_Anim {
+  0.0006% {
+    filter: invert();
+  }
+  100% {
+    filter: none;
+  }
+}
+
+#scriptures {
+  padding: 2mm;
+  margin-top: 1cm;
 }
