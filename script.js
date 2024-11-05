@@ -70,7 +70,7 @@ let returning = 'none';
 
 // This is what i have to do for all the scriptures
 genesis.addEventListener('click', function genesisRD() {
-  returning = 'genesis';
+  returning = 'genesis'
   redirect();
 });
 
@@ -399,6 +399,5 @@ function redirect() {
   returning = 'none';
 }
 
-//fetch
 
 
